@@ -1,5 +1,5 @@
 title = "Shinwelltronics"
-baseURL = "http://shinwelltronics.com/"
+baseURL = "http://shinwelltronics.netlify.com/"
 languageCode = "en-in"
 
 theme = "airspace-hugo"
