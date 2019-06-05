@@ -1,5 +1,5 @@
 title = "Shinwelltronics"
-baseURL = "https://shinwelltronics.netlify.com/"
+baseURL = "https://shinwelltronics.com/"
 languageCode = "en-in"
 
 theme = "airspace-hugo"
@@ -45,7 +45,7 @@ theme = "airspace-hugo"
 
   [params.wrapper]
     enable = true
-    image = "img/industiral-product-development-bangalore-basavanagudi.jpg"
+    image = "img/industrial-product-development-bangalore-basavanagudi.jpg"
     title = "Who are we?"
     italic = "Established in 1992,  we specialise in manufacturing of industrial products."
     paragraph = "We design, develop and manufacture a range of industrial & embedded products, and service industrial machines. Our team consists of design engineers who manage the life cycle of hardware-based & micro-controller based products to make the end product using computer interfacing, and comprehensive testing diagnostics. "
