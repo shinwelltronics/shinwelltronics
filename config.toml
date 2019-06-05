@@ -76,21 +76,23 @@ theme = "airspace-hugo"
     title = "Drop us a note"
     subtitle = "Get in touch to know more."
     
-    [params.contact.box]
-      title = "We are located at:"
-      address = "No. 20, 1st Floor, 1st Cross, 4th Main, Tata Silk Farm, Bangalore 560 082."
-      email = "Email: contact@shinwelltronics.com"
-      phone = "+91 903 556 6706"
-      
-    [params.contact.gmaps]
-      title = "Locate us"
-  
-  [params.dummy.contact]
     [params.contact.form]
         name = "Your name"
         email = "Your email"
         subject = "Your subject"
         message = "Your message"
         button = "Send message"
+    
+    [params.contact.box]
+      title = "Location"
+      address = "No. 20, 1st Floor, 1st Cross, 4th Main, Tata Silk Farm, Bangalore 560 082."
+      email = "Email: contact@shinwelltronics.com"
+      phone = "+91 903 556 6706"
+      
+    [params.contact.gmaps]
+      title = ""
+  
+  [params.dummy.contact]
+    
 
 
