@@ -1,48 +1,36 @@
 enable: true
-title: Fun Facts About Us
+title: Facts
 paragraph: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  Our achievement in numbers.
 
 number:
-  enable : true
+  enable: true
 numbers:
   - icon: ion-ios-chatboxes-outline
-    counter: 2000
-    text: Cups of Coffee
+    counter: 100K+
+    text: Orders delivered
   - icon: ion-ios-glasses-outline
-    counter: 2000
-    text: Cups of Coffee
+    counter: 100%
+    text: Quality Assurance
   - icon: ion-ios-compose-outline
-    counter: 2000
-    text: Cups of Coffee
+    counter: 100%
+    text: Support for manufacturing needs
   - icon: ion-ios-timer-outline
-    counter: 2000
-    text: Cups of Coffee
+    counter: 95%
+    text: On Time Delivery
 
 peoples:
-  enable : true
+  enable: true
 people:
   - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    quoteImg: img/cotation.png    
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
-  - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+      Good work.
     quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+    image: img/boss.png
+    name: Darshan
+    role: Manager, Caterpillar
   - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+      Pravin was helpful in understanding our needs & delivered products on time.
     quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
-  - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+    image: img/boss.png
+    name: Venkatesh
+    role: Manager

@@ -3,10 +3,11 @@ baseURL = "https://shinwelltronics.netlify.com/"
 languageCode = "en-in"
 
 theme = "airspace-hugo"
-
+   
 # The site's parameters
 [params]
   home = "Home"
+  #hardLineBreak = true
   
   [menu]
 
@@ -14,94 +15,82 @@ theme = "airspace-hugo"
       weight = 2
       name = "Work"
       url = "/work"
+   
     [[menu.header]]
       weight = 3
-      name = "Blog"
-      url = "/blog"
-    [[menu.header]]
-      weight = 4
-      name = "Service"
-      url = "/service"
-    [[menu.header]]
-      weight = 5
       name = "Contact"
       url = "/contact"
 
     [[menu.footer]]
       weight = 1
       name = "About us"
-      url = "#"
+      url = "/"
     [[menu.footer]]
       weight = 2
-      name = "Contact us"
-      url = "#"
+      name = "Contact Industrial Product Designers & Manufacturers"
+      url = "/contact"
     [[menu.footer]]
       weight = 3
-      name = "How it works"
-      url = "#"
-    [[menu.footer]]
-      weight = 4
-      name = "Blog"
-      url = "#"
-    [[menu.footer]]
-      weight = 5
-      name = "Terms"
-      url = "#"
+      name = "Our Work"
+      url = "/work"
+    
 
   [params.slider]
     enable = true
-    title = "A digital marketing &amp; design agency"
-    subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
-    bgImage = "img/slider-bg.jpg"
-    btnText = "Discover Our Projects"
-    url = "#"
+    title = "Experts in manufacturing customised industrial products."
+    subtitle = "We develop industrial products to custom specifications."
+    bgImage = "img/main-bg.jpg"
+    btnText = "Know More"
+    url = "/work"
 
   [params.wrapper]
     enable = true
-    image = "img/wrapper-img.png"
-    title = "About Us"
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    image = "img/industiral-product-development-bangalore-basavanagudi.jpg"
+    title = "Who are we?"
+    italic = "Established in 1992,  we specialise in manufacturing of industrial products."
+    paragraph = "We design, develop and manufacture a range of industrial & embedded products, and service industrial machines. Our team consists of design engineers who manage the life cycle of hardware-based & micro-controller based products to make the end product using computer interfacing, and comprehensive testing diagnostics. "
+    paragraph1 = "Based in Bangalore, we offer 25+ years of rich design and manufacturing expertise to small and large companies globally."
 
-  [params.blog]
-    enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
+
 
   [params.feature]
     enable = true
-    title = "We believe in great ideas"
-    bgImage = "img/feature-bg.jpg"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    title = "We are your reliable manufacturing partners"
+    bgImage = "img/crimp-terminals-1.jpg"
+    content = "We partner with you to detail out your specifications and bring products to to life. We take pride in being reliable, consistent & IP65 compliant. And, we do all this using proven cost-efficient and quality assured methodologies."
     [params.feature.button]
-      caption = "View Works"
-      url = "#"
+      caption = "Know More"
+      url = "/work"
 
   [params.call]
     enable = true
     bgImage = "img/call-to-action-bg.jpg"
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Talk to us for your industrial manufacturing needs."
+    paragraph = "We assure speedy delivery, conform to quality standards prevalent in the industry. We undertake work that needs specific compliance practices."
     [params.call.button]
-      url = "#"
-      text = "tell us your story"
+      url = "/contact"
+      text = "Get in touch"
 
   [params.contact]
     enable = true
     title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
-    [params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
+    subtitle = "Get in touch to know more."
+    
     [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      title = "We are located at:"
+      address = "No. 20, 1st Floor, 1st Cross, 4th Main, Tata Silk Farm, Bangalore 560 082."
+      email = "Email: contact@shinwelltronics.com"
+      phone = "+91 903 556 6706"
+      
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = "Locate us"
+  
+  [params.dummy.contact]
+    [params.contact.form]
+        name = "Your name"
+        email = "Your email"
+        subject = "Your subject"
+        message = "Your message"
+        button = "Send message"
 
 
