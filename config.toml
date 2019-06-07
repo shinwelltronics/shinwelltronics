@@ -27,7 +27,7 @@ theme = "airspace-hugo"
       url = "/"
     [[menu.footer]]
       weight = 2
-      name = "Contact Industrial Product Designers & Manufacturers"
+      name = "Industrial Product Designers & Manufacturers"
       url = "/contact"
     [[menu.footer]]
       weight = 3

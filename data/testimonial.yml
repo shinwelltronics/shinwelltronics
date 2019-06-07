@@ -23,14 +23,8 @@ peoples:
   enable: true
 people:
   - text: >
-      Good work.
+      It's been a good experience working with your team.
     quoteImg: img/cotation.png
     image: img/boss.png
-    name: Darshan
+    name: Suresh R
     role: Manager, Caterpillar
-  - text: >
-      Pravin was helpful in understanding our needs & delivered products on time.
-    quoteImg: img/cotation.png
-    image: img/boss.png
-    name: Venkatesh
-    role: Manager
